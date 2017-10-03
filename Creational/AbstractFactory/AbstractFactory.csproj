@@ -58,9 +58,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\MercedesFactory.cs" />
-    <Compile Include="Abstract\BmwFactory.cs" />
-    <Compile Include="Abstract\AudiFactory.cs" />
+    <Compile Include="Imlementation\MercedesFactory.cs" />
+    <Compile Include="Imlementation\BmwFactory.cs" />
+    <Compile Include="Imlementation\AudiFactory.cs" />
     <Compile Include="Abstract\CarFactory.cs" />
     <Compile Include="Entities\CarBody.cs" />
     <Compile Include="Entities\Car.cs" />

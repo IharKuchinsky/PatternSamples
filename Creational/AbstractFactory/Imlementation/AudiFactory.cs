@@ -1,6 +1,7 @@
-﻿using AbstractFactory.Entities;
+﻿using AbstractFactory.Abstract;
+using AbstractFactory.Entities;
 
-namespace AbstractFactory.Abstract
+namespace AbstractFactory.Imlementation
 {
     class AudiFactory : CarFactory
     {

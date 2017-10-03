@@ -1,6 +1,7 @@
-﻿using AbstractFactory.Entities;
+﻿using AbstractFactory.Abstract;
+using AbstractFactory.Entities;
 
-namespace AbstractFactory.Abstract
+namespace AbstractFactory.Imlementation
 {
     class MercedesFactory : CarFactory
     {
@@ -8,6 +9,7 @@ namespace AbstractFactory.Abstract
         {
             return new CarInfo { Model = "E63 AMG", Year = 2017 };
         }
+
         public override CarEngine CreateEngine()
         {
             return new CarEngine { Capacity = 5200, Power = 580 };
