@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Sin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{8F10D1BC-1204-4F54-8284-AD3D578C581E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{D9E4C930-D3D5-4B50-8FFE-E2D9A499055F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Behavioral\TemplateMethod\TemplateMethod.csproj", "{D9E4C930-D3D5-4B50-8FFE-E2D9A499055F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
