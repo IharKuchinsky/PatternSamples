@@ -6,6 +6,7 @@ namespace Strategy.Entities
 	{
 		Gasoline,
 		Diesel,
-		Electric
+		Electric,
+		Hybrid
 	}
 }

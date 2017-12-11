@@ -20,6 +20,6 @@ namespace Strategy.Implementation
 			_engineType = engineType;
 		}
 
-		public string GetEngineFeatures() => _strategy[_engineType];
+		public string GetEngineFeatures() => _strategy.TryGetValue(_engineType, out string result) ? result : "Doesn't have info";
 	}
 }
