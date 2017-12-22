@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{F1400C49-A609-4829-BFF0-9379DDA0FDCC}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{8F10D1BC-1204-4F54-8284-AD3D578C581E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Behavioral\TemplateMethod\TemplateMethod.csproj", "{D9E4C930-D3D5-4B50-8FFE-E2D9A499055F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{93C5D0FF-3F09-405D-BD04-E16B7FE9EA6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D9E4C930-D3D5-4B50-8FFE-E2D9A499055F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E4C930-D3D5-4B50-8FFE-E2D9A499055F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E4C930-D3D5-4B50-8FFE-E2D9A499055F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C5D0FF-3F09-405D-BD04-E16B7FE9EA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C5D0FF-3F09-405D-BD04-E16B7FE9EA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C5D0FF-3F09-405D-BD04-E16B7FE9EA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C5D0FF-3F09-405D-BD04-E16B7FE9EA6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{6023EA52-BFAB-40F8-ACF0-2A81622C9B2E} = {80733FD7-F5D9-4EFB-9D9B-B54BF1F1C2EA}
 		{8F10D1BC-1204-4F54-8284-AD3D578C581E} = {58CEF3C8-827B-4F3B-8583-FBBE7AA9B244}
 		{D9E4C930-D3D5-4B50-8FFE-E2D9A499055F} = {58CEF3C8-827B-4F3B-8583-FBBE7AA9B244}
+		{93C5D0FF-3F09-405D-BD04-E16B7FE9EA6E} = {58CEF3C8-827B-4F3B-8583-FBBE7AA9B244}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {011BA6C5-1D77-4BC8-94BB-48C7FC77E178}
