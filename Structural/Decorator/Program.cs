@@ -13,7 +13,7 @@ namespace Decorator
 
 			payload.UsefulWork(() => Thread.Sleep(2000));
 
-			Console.Read();
+			Console.Read();		
 		}
 	}
 }
