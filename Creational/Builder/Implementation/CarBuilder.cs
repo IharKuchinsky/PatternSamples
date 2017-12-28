@@ -4,46 +4,39 @@ using Builder.Entities;
 
 namespace Builder.Implementation
 {
-	public class CarBuilder : ICarBuilder
+	public class CarBuilder : CarBuilderBase
 	{
-		private ICar Car { get; set; }
-
-		public CarBuilder()
-		{
-			Car = new Car();
-		}
-
-		public ICarBuilder Make(string make)
+		public override CarBuilderBase Make(string make)
 		{
 			Car.Make = make;
 			return this;
 		}
 
-		public ICarBuilder Model(string model)
+		public override CarBuilderBase Model(string model)
 		{
 			Car.Model = model;
 			return this;
 		}
 
-		public ICarBuilder EnginePower(int power)
+		public override CarBuilderBase EnginePower(int power)
 		{
 			Car.EnginePower = power;
 			return this;
 		}
 
-		public ICarBuilder DriveType(DriveType driveType)
+		public override CarBuilderBase DriveType(DriveType driveType)
 		{
 			Car.DriveType = driveType;
 			return this;
 		}
 
-		public ICarBuilder GearBox(GearBoxType gearBoxType)
+		public override CarBuilderBase GearBox(GearBoxType gearBoxType)
 		{
 			Car.GearBoxType = gearBoxType;
 			return this;
 		}
 
-		public ICar Build()
+		public override ICar Build()
 		{
 			return Car;
 		}

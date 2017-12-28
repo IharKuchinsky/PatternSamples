@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\ICar.cs" />
-    <Compile Include="Abstract\ICarBuilder.cs" />
+    <Compile Include="Abstract\CarBuilderBase.cs" />
     <Compile Include="Entities\Car.cs" />
     <Compile Include="Entities\DriveType.cs" />
     <Compile Include="Entities\GearBoxType.cs" />
