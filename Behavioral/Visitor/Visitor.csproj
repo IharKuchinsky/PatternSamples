@@ -43,12 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\Car.cs" />
-    <Compile Include="Abstract\Visitor.cs" />
+    <Compile Include="Abstract\IVisitor.cs" />
     <Compile Include="Entities\CarShowroom.cs" />
     <Compile Include="Entities\CombustionEngineCar.cs" />
     <Compile Include="Entities\ElectricEngineCar.cs" />
-    <Compile Include="Implementation\ElectricChargerVisitor.cs" />
-    <Compile Include="Implementation\FuelFillerVisitor.cs" />
+    <Compile Include="Implementation\Visitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
