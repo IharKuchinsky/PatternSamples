@@ -10,7 +10,7 @@ namespace FactoryMethod
 			CarCreator electricEngineCarCreator = new ElectricEngineCarCreator();
 			var electricEngineCar = electricEngineCarCreator.Create("Tesla", "P90");
 
-			CarCreator combustionEngineCarCreator = new ElectricEngineCarCreator();
+			CarCreator combustionEngineCarCreator = new CombustionEngineCarCreator();
 			var combustionEngineCar = combustionEngineCarCreator.Create("Audi", "RS7");
 
 			electricEngineCar.PrintInfo();

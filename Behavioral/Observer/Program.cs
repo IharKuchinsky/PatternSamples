@@ -9,7 +9,7 @@ namespace Observer
 		static void Main(string[] args)
 		{
 			Car car = new Car();
-			ICarObserver speedometer = new Speedometer();
+			ICarObserver speedometer = new SpeedChecker(60);
 
 			car.AddObserver(speedometer);
 			car.Move(70);

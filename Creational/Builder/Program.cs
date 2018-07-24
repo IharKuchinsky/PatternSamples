@@ -15,7 +15,8 @@ namespace Builder
 				.Model("RS7")
 				.EnginePower(640)
 				.GearBox(GearBoxType.Automatic)
-				.DriveType(DriveType.AllWheelDrive).Build();
+				.DriveType(DriveType.AllWheelDrive)
+				.Build();
 
 			Console.WriteLine(car);
 

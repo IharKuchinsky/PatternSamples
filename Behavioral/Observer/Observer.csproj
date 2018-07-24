@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Implementation\Car.cs" />
     <Compile Include="Implementation\CurrentCarStats.cs" />
-    <Compile Include="Implementation\Speedometer.cs" />
+    <Compile Include="Implementation\SpeedChecker.cs" />
     <Compile Include="Interfaces\ICarObservable.cs" />
     <Compile Include="Interfaces\ICarObserver.cs" />
     <Compile Include="Program.cs" />

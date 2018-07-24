@@ -3,12 +3,18 @@ using Observer.Interfaces;
 
 namespace Observer.Implementation
 {
-	public class Speedometer: ICarObserver
+	public class SpeedChecker: ICarObserver
 	{
+		private readonly int _speedLimit = 0;
+
+		public SpeedChecker(int speedLimit)
+		{
+			_speedLimit = speedLimit;
+		}
+
 		public void Update(CurrentCarStats stats)
 		{
-			int speedLimit = 60;
-			int overSpeed = stats.Speed - speedLimit;
+			int overSpeed = stats.Speed - _speedLimit;
 
 			if (overSpeed > 0) WarnOfOverSpeed(overSpeed);
 		}
